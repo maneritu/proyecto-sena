@@ -1,5 +1,5 @@
 
-<?php 
+<?php jhini
 require('conectar_base_de_datos.php');
 	$nombre = $_POST['nombre'];
 	$titulo = $_POST['titulo'];
