@@ -1,0 +1,232 @@
+GUÍA DE APRENDIZAJE Nº 01 – Documento derequerimientos
+
+1.   IDENTIFICACIÓN DE LA GUIA DE APRENDIZAJE
+Programa de Formación:
+Análisis y desarrollo de sistemas de información	Código:  228106
+Versión: 102
+Nombre del Proyecto:
+SISTEMA     INTEGRAL     WEB    PARA     GESTION     DE PROCESOS EDUCATIVOS DEL CEET	
+Código:  576887
+Fase del proyecto: Análisis	
+
+
+
+
+
+
+
+Actividad (es) del Proyecto:
+
+
+Analizar procesos, datos y necesidades del centro de electricidad, electrónica y telecomunicaciones y el usuario final para el modulo especifico.	Actividad (es) de
+Aprendizaje:
+
+Elaborar informe de análisis de requerimientos, proponiendo las alternativas de solución del sistema de información que cumpla con las necesidades del cliente	AMBIENTE DE
+FORMACIÓN    El ambiente de aprendizaje debe estar conformado por:
+
+20 Equipos con los requerimientos mínimos:
+• Sistema operativo:
+Windows Vista
+• Disco Duro:  400 GB
+• Ram:  2GB como
+mínimo
+• Procesador:  Intel
+Core 2Duo de 2,66
+Mhz
+• Aplicaciones:  Java,
+Visual Studio .Net
+2008, PHP, MySQL, SQL Server 2008
+• Mesas y sillas
+1 Servidor de aplicaciones
+1 Impresora mínimo
+1 Scaner
+5 Dispositivos móviles (Palm o Pocket PC) Conexión a Internet permanente	MATERIALES DE FORMACIÓN
+			DEVOLUTIVO
+(Herramienta
+- equipo)	CONSUMIBLE
+(unidades empleadas durante el programa)
+Resultados de Aprendizaje: 220501032 01 Interpretar el informe de requerimientos, para determinar las necesidades tecnológicas en el manejo de la información, de acuerdo con las normas y protocolos	Competencia:  220501032
+Analizar los requisitos del cliente para construir el sistema de información
+
+
+establecidos en la empresa.	
+Resultados     de     Aprendizaje:          220501032     02
+Representa el bosquejo de la solución al  problema presentado por el cliente, mediante la  elaboración de diagramas de casos de uso,  apoyado en el análisis del informe de requerimientos, al confrontar la situación problemática con el usuario según  normas y protocolos de la organización.	Competencia:  220501032
+Analizar los requisitos del  cliente  para  construir  el sistema de información
+Resultados de Aprendizaje:	Competencia:
+Duración de la guía ( en horas):	40 Horas			
+
+2. INTRODUCCIÓN
+3. ESTRUCTURA DIDÁCTICA DE LAS ACTIVIDADES DE APRENDIZAJE
+
+
+1.	Introducción
+La introducción de la especificación de requisitos de software (SRS) debe proporcionar una vista general de la SRS. Debe Incluir el Objetivo, el alcance, las definiciones y acrónimos, las referencias, y la vista general del SRS.
+1.1.	Objetivo
+Objetivos generales y específicos del Sistema.
+1.2.	Alcance
+•	Identificación del producto(s)a desarrollar mediante un nombre.
+•	Consistencia con definiciones similares de documentos de mayor nivel (ej. Descripción del Sistema) que puedan existir.
+1.3.	Personal Involucrado
+Relación de personas involucradas en el desarrollo del sistema, con información de contacto.  Esta es útil para que el gestor del proyecto pueda localizar a todos los participantes y recabar la información necesaria para la obtención de requisitos, validaciones de seguimiento, etc. 
+1.4.	Definiciones, acrónimos abreviaturas
+Definición de todos los términos, abreviaturas y acrónimos necesarios para interpretar apropiadamente este documento. En ella se pueden indicar referencias a uno o más apéndices, o a otros documentos.
+1.5.	Referencias
+Relación completa de todos los documentos relacionados en la especificación de requisitos de software, identificando de cada documento el título, referencia (si procede), fecha y organización que lo proporciona.
+1.6.	Visión General
+•	Descripción del contenido del resto del documento.
+•	Explicación de la organización del documento.
+2.	Descripción General
+2.1.	Perspectiva del producto
+Indicar si es producto independiente o parte de un sistema mayor. En el caso de tratarse de un producto que forma parte de un sistema mayor, un diagrama que sitúe el producto dentro del sistema e identifique sus conexiones así facilita la comprensión.
+2.2.	Funciones del producto
+Resumen de las funcionalidades principales que el producto debe realizar sin entrar en información de detalle.
+En ocasiones la información de esta sección puede tomarse de un documento de especificación del sistema de mayor nivel (ej. Requisitos del sistema).
+Las funcionalidades deben estar organizadas de manera que el cliente o cualquier interlocutor pueda entenderlo perfectamente. Para ello se pueden utilizar métodos textuales o gráficos.
+2.3	Características de usuario
+Descripción de los usuarios del producto, incluyendo nivel educacional experiencia y experiencia técnica.
+2.4	 Restricciones
+Descripción de aquellas limitaciones a tener en cuenta a la hora de diseñar y desarrollar el sistema, tales como el empleo de determinadas metodologías de desarrollo, lenguajes de programación, normas particulares, restricciones de hardware y sistema operativo etc... 
+2.5	Suposiciones y dependencias
+Descripción de aquellos factores que si cambian pueden afectar a los requisitos. Por ejemplo, una asunción puede ser que determinado sistema está disponible para el hardware requerido. De hecho, si el sistema operativo no estuviera disponible, la SRS debería modificarse.
+2.6	Evolución Previsible del sistema
+Identificación de futuras mejoras al sistema, que podrán analizarse e implementarse en un futuro.
+3.	Requisitos específicos
+3.1 Requisitos de interfaces externas
+Descripción detallada de todas las entradas y salidas del sistema de software
+3.1.1 Interfaces de usuario
+Describir los requisitos del interfaz de usuario para el producto. Esto puede estar en la forma de descripciones del texto o pantallas del interfaz. Por ejemplo, posiblemente el cliente ha especificado el estilo los colores del producto. Describa exacto como el producto aparecerá a su usuario previsto.
+3.1.2 Interfaces de hardware
+Especificar las características lógicas para cada interfaz entre el producto y los componentes de hardware del sistema. Se incluirán características de configuración.
+3.1.3 Interfaces de software
+Indicar si hay que integrar el producto con otros productos de software.
+Para cada producto de software debe especificarse lo siguiente:
+* Descripción del producto software utilizado
+* Propósito del interfaz
+* Definición de la interfaz:  Contenido y formato.
+3.1.4 Interfaces de comunicación
+Describir los requisitos de la interface de comunicación si hay comunicaciones con otros sistemas y cuáles son los protocolos de comunicación.
+
+3.2 Requisitos
+	3.2.1 Requisitos funcionales
+Definición de acciones fundamentales que debe realizar el software al recibir información, procesarla y producir resultados.  En ellas se incluye: *Comprobación de validez de las entradas * Secuencia exacta de operaciones * Respuesta a situaciones anormales (desbordamientos, comunicaciones, reparación de errores) * Parámetros * Generación de salidas * Relaciones entre entradas y salidas (Secuencias de entradas y salidas, fórmulas para la conversión de la información) * Especificación de los requisitos lógicos para la información que será almacenada en bases de datos (Tipo de información, requerido) los requisitos funcionales pueden ser divididos en sub-secciones
+3.2.1.1 Requisito funcional 1
+3.2.1.1 Requisito funcional 2
+3.2.1.1 Requisito funcional 3
+3.2.1.1 Requisito funcional 4
+3.2.2 Requisitos no funcionales
+	3.2.2.1 Requisitos de rendimiento
+Especificaciones de los requisitos relacionados con la carga que se espera tenga que soportar el sistema. Por ejemplo, el número de terminales, el número esperado de usuarios simultáneamente conectados, número de transacciones por segundo que deberá soportar el sistema, etc.
+Todos los requisitos deben ser mesurables. Por ejemplo, indicando “el 95% de las transacciones deben realizarse en menos de un segundo”, en lugar de, “Los operadores no deben esperar a que se complete la transacción”. 
+3.2.2.2 Seguridad
+Especificación de elementos que protegerán al software de accesos, usos y sabotajes maliciosos, así como de modificaciones o destrucciones maliciosas o accidentales. Los requisitos pueden especificar:
+•	Empleo de técnicas criptográficas
+•	Registro de ficheros con “Logs” de actividad.
+•	Asignación de determinadas funcionalidades a determinados módulos.
+•	Restricciones de comunicación entre determinados módulos.
+•	Comprobaciones de integridad de información crítica.
+
+3.2.2.3 fiabilidad
+Especificación de los factores de fiabilidad necesaria del sistema. Esto se expresa generalmente como el tiempo entre los incidentes permisibles, o el total de incidentes permisibles.
+3.2.2.4 Disponibilidad
+Especificación de los factores de disponibilidad final exigidos al sistema. Normalmente expresados en % de tiempo en los que el software tiene que mostrar disponibilidad. 
+3.2.2.5 Mantenibilidad
+Identificación del tipo de mantenimiento necesario del sistema.
+Especificación de quien debe realizar las tareas de mantenimiento, por ejemplo, usuarios, o un desarrollador.
+Especificación de cuándo debe realizarse las tareas de mantenimiento, por ejemplo, generación de estadísticas de acceso semanales y mensuales.
+3.2.5.1	Portabilidad
+Especificación de atributos que debe presentar el software para facilitar su traslado a otras plataformas u entornos. Pueden incluirse:
+•	Porcentaje de componentes dependientes del servidor.
+•	Porcentaje de código dependiente del servidor.
+•	Uso de un determinado lenguaje por su portabilidad.
+•	Uso de un determinado compilador o plataforma de desarrollo.
+•	Uso de un determinado sistema operativo.
+
+3.2.5.1 Otros Requisitos
+Requisitos culturales y políticos
+Requisitos legales
+3.3 Apéndices y otros
+Imágenes y cualquier otro tipo de información relevante para los programadores, analistas, y gerente de proyecto.
+
+
+DESARROLLO
+
+1.1	Objetivos:
+1.1.1.	 Objetivo General
+a.	Diseñar un programa de Administración del parqueadero en el CEET.
+
+1.1.2.  Objetivos Específicos
+a.	Automatizar la gestión de usuarios para la asignación de parqueaderos.
+b.	Evitar conflictos con los horarios de asignación.
+c.	Determinar la capacidad, así como los cupos disponibles.
+
+
+1.2 	Alcance:
+•	Nombre del proyecto: SGUP (Sistema de Gestión de Usuario de Parqueadero)
+•	Al finalizar se entregará un programa que permita gestionar, administrar y optimizar los procesos llevados a cabo en el parqueadero para automóviles del CEET.
+•	Dicho programa será entregado como producto final el día 26 de septiembre del año 2018.
+•	Al finalizar cada trimestre y contado a partir del 26 de septiembre se entregará cada una de las fases del proyecto tales como, análisis, recolección de información, desarrollo y producción o entrega del producto final.
+1.3	Personal involucrado
+•	Instructor:
+Eduard Stith Bohorquez Teléfono: 3212164832
+•	Desarrolladores:
+Nicolas Maduro Teléfono: 3102005289
+Marionel Rivera Teléfono: 3106189272
+Fredys Rangel Teléfono: 3177398988
+•	Administración CEET:
+José Gil e-mail: jgilf@sena.edu.co
+1.4	Definiciones Acrónimos y Abreviaturas
+•	SGUP
+1.5	Referencias 
+El equipo que correrá el SGUP deberá tener instalado al menos Windows 7 SP1
+
+•	Procesador:
+Un procesador a 1 GHz o más rápido o SoC
+•	RAM:
+Dispositivo nuevo: 2 gigabytes (GB) para las versiones de 32 o 64 bits
+Actualizaciones: 1 gigabyte (GB) para 32 bits o 2 GB para 64 bits
+•	Espacio en disco duro:
+16 GB para un SO de 32 bits o 20 GB para un SO de 64 bits
+•	Tarjeta gráfica:
+DirectX 9 o posterior con un controlador WDDM 1.0
+•	Pantalla:
+800 x 600
+•	Especificaciones ideales:
+ 
+
+
+•	https://www.microsoft.com/es-es/windows/windows-10-specifications
+
+1.6	Visión General
+•	Este documento describe el análisis y desarrollo del sistema informático que solucionará la problemática relacionada con la gestión y administración del parqueadero del Centro de Electricidad y Electrónica y Telecomunicaciones CEET.
+•	A lo largo de este proyecto se tratarán el planteamiento de la problemática, el análisis de la problemática, Formulación de requerimientos, recolección de datos basados en los requerimientos, desarrollo, implantación, pruebas y puesta en producción del software.
+
+2.	Descripción general:
+2.1.	Perspectiva del proyecto: 
+•	Convertir el software SGUP en el prototipo de producción de un software de consumo masivo.
+•	Lanzar el producto con una proyección universal y teniendo en cuenta los más altos estándares de calidad en producción de software.
+2.2       Funciones del producto:
+•	Administración de eventos en el parqueadero
+•	Crear usuarios
+•	Perfilar usuarios
+•	Registrar ingreso al parqueadero
+•	Registrar salida del parqueadero
+•	Registrar espacios libres y ocupados en el parqueadero
+•	Validar datos alternos como persona a cargo de la administración del parqueadero, hora en que se generó cada uno de los eventos de crear y registrar mencionados anteriormente
+•	Imprimir reportes
+•	Gestionar tickets de reclamos y o sugerencias	
+
+2.3	Características de usuario
+•	Usuario normal; grado medio bajo en el manejo de herramientas tecnológicas
+•	Usuario estudiante; grado intermedio en el manejo de plataformas tecnológicas
+•	Usuario instructor; Grado avanzado en el manejo de herramientas tecnológicas
+2.4	Restricciones
+•	 
+2.5	Suposiciones y dependencias
+•	
+2.6	Evolución previsible del sistema
+•	
+
+
+
+
